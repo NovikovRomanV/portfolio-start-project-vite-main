@@ -25,10 +25,8 @@ const StyleMenu = styled.nav`
         display: flex;
         flex-direction: row;
         gap: 58px;
-        list-style: none;
     }
     a {
-        text-decoration: none;
         color: white
     }
 `

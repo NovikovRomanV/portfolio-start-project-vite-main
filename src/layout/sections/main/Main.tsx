@@ -1,16 +1,22 @@
 import photo from "../../../assents/images/photo.jpg"
 import styled from "styled-components";
+import {Container} from "../../../components/Container.ts";
+import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 
 
 export const Main = () => {
     return (
         <StyledMain>
-                <img src={photo} alt={'photo'}/>
-                <div>
-                    <span>Hi There</span>
-                    <Name>I am Roman Novikov</Name>
-                    <MainTitle>A Web Developer.</MainTitle>
-                </div>
+            <Container>
+                <FlexWrapper justify={"space-around"} align={"center"}>
+                    <img src={photo} alt={'photo'}/>
+                    <div>
+                        <span>Hi There</span>
+                        <Name>I am Roman Novikov</Name>
+                        <MainTitle>A Web Developer.</MainTitle>
+                    </div>
+                </FlexWrapper>
+            </Container>
         </StyledMain>
     );
 };
@@ -22,10 +28,11 @@ const Name = styled.h2`
     color: white;
 `
 
-const StyledMain = styled.div`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+const StyledMain = styled.section`
+    margin: 0 auto;
+    //display: flex;
+    //justify-content: space-around;
+    //align-items: center;
     //position: absolute;
     //top: 180px;
     //left: 100px;
@@ -35,7 +42,7 @@ const StyledMain = styled.div`
     height: 507px;
     backdrop-filter: blur(20px);
     background: linear-gradient(132deg, rgba(57, 57, 57, 0.5) 0%, rgba(0, 66, 255, 0.05) 100%);
-border: 3px solid blue;
+border: 3px solid #838383;
     img {
         width: 301px;
         height: 301px;

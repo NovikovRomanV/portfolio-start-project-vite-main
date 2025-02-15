@@ -24,6 +24,7 @@ const StyleButtonImg = styled.button<{ urlImg?: string }>`
     background-image: url(${props => props.urlImg});
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
     img{
         width: 36px;
         height: 37px;
