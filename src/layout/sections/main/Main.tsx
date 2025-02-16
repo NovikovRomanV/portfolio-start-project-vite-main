@@ -42,7 +42,8 @@ const StyledMain = styled.section`
     height: 507px;
     backdrop-filter: blur(20px);
     background: linear-gradient(132deg, rgba(57, 57, 57, 0.5) 0%, rgba(0, 66, 255, 0.05) 100%);
-border: 3px solid #838383;
+    border: 3px solid #838383;
+
     img {
         width: 301px;
         height: 301px;
@@ -52,7 +53,8 @@ border: 3px solid #838383;
         transform: rotate(3deg);
         object-fit: cover;
     }
-    span{
+
+    span {
         color: white;
     }
 `

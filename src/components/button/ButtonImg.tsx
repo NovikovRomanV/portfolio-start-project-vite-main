@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {theme} from "../../styles/Theme.ts";
 
 
 type PropsType = {
@@ -20,7 +21,7 @@ const StyleButtonImg = styled.button<{ urlImg?: string }>`
     cursor: pointer;
     width: 45px;
     height: 45px;
-    background-color: black;
+    background-color: ${theme.colors.primaryBg};
     background-image: url(${props => props.urlImg});
     background-size: contain;
     background-repeat: no-repeat;

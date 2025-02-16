@@ -19,5 +19,5 @@ const StyledSkills = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 15px;
 `
