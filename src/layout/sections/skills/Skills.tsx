@@ -6,18 +6,22 @@ import {Skill} from "./skill/Skill.tsx";
 export const Skills = () => {
     return (
         <StyledSkills>
-           <Skill iconId={'reactNewIcon'} titleSkills={'JS'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
-           <Skill iconId={'reactNewIcon'} titleSkills={'JS'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
-           <Skill iconId={'reactNewIcon'} titleSkills={'JS'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
-           <Skill iconId={'reactNewIcon'} titleSkills={'JS'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
-           <Skill iconId={'reactNewIcon'} titleSkills={'JS'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
+           <Skill iconId={'reactNewIcon'} titleSkills={'React'} height={'50px'} width={'50px'} viewBox={"0 0 50 50"}/>
         </StyledSkills>
     );
 };
 
 const StyledSkills = styled.section`
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 850px;
+    width: 100%;
+    align-self: flex-end;
 `

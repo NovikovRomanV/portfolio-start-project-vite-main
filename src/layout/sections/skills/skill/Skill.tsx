@@ -41,10 +41,10 @@ const StyledSkill = styled.section`
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
+    margin-right: 15px;
     
 `
 const StyledIconWrapper = styled.div`
-    //border: 10px solid ${theme.colors.primaryBg}; 
     border-radius: 50%; 
     padding: 10px;
     position: relative; 

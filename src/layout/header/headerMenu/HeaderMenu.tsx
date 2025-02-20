@@ -40,7 +40,6 @@ const StyleMenu = styled.nav`
 
 
 const Link = styled.a`
-    font-family: "Roboto", serif;
     font-size: 16px;
     text-align: center;
     color: transparent;

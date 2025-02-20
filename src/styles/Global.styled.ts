@@ -28,6 +28,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: ${theme.colors.font};
     background-color: ${theme.colors.primaryBg};
+    line-height: 1.2;
 }
 a{
     text-decoration: none;
@@ -39,4 +40,5 @@ button{
     background-color: unset;
     border: none;
 }
+
 `
